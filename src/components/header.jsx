@@ -36,10 +36,10 @@ export function Header() {
           <div className="hidden md:flex items-center space-x-8">
             <button
               type="button"
-              onClick={() => scrollToSection("about")}
+              onClick={() => scrollToSection("skills")}
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              About
+              Skills
             </button>
             <button
               type="button"
@@ -57,7 +57,7 @@ export function Header() {
             </button>
             <Button
               onClick={() => scrollToSection("contact")}
-              className="bg-primary text-primary-foreground hover:bg-primary/90"
+              className="bg-teal-500 text-primary-foreground hover:bg-teal-500/90"
             >
               Contact
             </Button>

@@ -5,37 +5,31 @@ import { Card } from "@/components/ui/card";
 export function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Sistem Informasi Manajemen Masjid Untuk Optimalisasi Administrasi dan Transparansi Keuangan",
       description:
         "A full-stack e-commerce solution built with Next.js and Stripe integration. Features include user authentication, product management, shopping cart, and payment processing.",
       image: "/modern-ecommerce-interface.png",
-      technologies: ["Next.js", "TypeScript", "Stripe", "Prisma", "PostgreSQL"],
+      technologies: ["HTML", "CSS", "Javascript", "TailwindCSS", "Nextjs"],
       liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+    //   githubUrl: "https://github.com",
     },
     {
-      title: "Task Management App",
+      title: "Sosial Media berbasis Kampus",
       description:
         "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features. Built with React and Socket.io.",
       image: "/task-management-dashboard.png",
-      technologies: [
-        "React",
-        "Node.js",
-        "Socket.io",
-        "MongoDB",
-        "Tailwind CSS",
-      ],
+      technologies: ["HTML", "CSS", "Javascript", "TailwindCSS", "Nextjs"],
       liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+    //   githubUrl: "https://github.com",
     },
     {
-      title: "Weather Dashboard",
+      title: "Content Management System dan Landing Page Rapier Technology International",
       description:
         "A responsive weather application that provides current weather conditions and forecasts. Features location-based weather data and interactive charts.",
       image: "/preview/project4.png",
-      technologies: ["React", "Chart.js", "OpenWeather API", "CSS Grid"],
+      technologies: ["HTML", "CSS", "Javascript", "TailwindCSS", "Nextjs"],
       liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+    //   githubUrl: "https://github.com",
     },
   ];
 
@@ -45,13 +39,13 @@ export function Projects() {
         <div className="space-y-12">
           <div className="space-y-4">
             <div className="flex items-center gap-4">
-              <div className="w-12 h-px bg-primary"></div>
-              <h2 className="text-sm uppercase tracking-wider text-primary font-medium">
+              <div className="w-12 h-px bg-teal-500"></div>
+              <h2 className="text-sm uppercase tracking-wider text-teal-500 font-medium">
                 Projects
               </h2>
             </div>
             <h3 className="text-3xl lg:text-4xl font-bold text-foreground">
-              Some things {"I've"} built
+              Semua project saya
             </h3>
           </div>
 
@@ -59,7 +53,7 @@ export function Projects() {
             {projects.map((project, index) => (
               <Card
                 key={index}
-                className="group bg-card border-border hover:border-primary/50 transition-all duration-300 overflow-hidden"
+                className="group bg-card border-border hover:border-teal-500/50 transition-all duration-300 overflow-hidden"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -83,7 +77,7 @@ export function Projects() {
                     {project.technologies.map((tech, techIndex) => (
                       <span
                         key={techIndex}
-                        className="px-2 py-1 text-xs bg-primary/10 text-primary rounded border border-primary/20"
+                        className="px-2 py-1 text-xs bg-teal-500/10 text-teal-500 rounded border border-primary/20"
                       >
                         {tech}
                       </span>
@@ -91,7 +85,7 @@ export function Projects() {
                   </div>
 
                   <div className="flex items-center gap-3 pt-2">
-                    <Button
+                    {/* <Button
                       size="sm"
                       variant="outline"
                       className="border-border text-foreground hover:bg-secondary bg-transparent"
@@ -105,7 +99,7 @@ export function Projects() {
                         <Github className="h-4 w-4 mr-2" />
                         Code
                       </a>
-                    </Button>
+                    </Button> */}
                     <Button
                       size="sm"
                       className="bg-primary text-primary-foreground hover:bg-primary/90"
