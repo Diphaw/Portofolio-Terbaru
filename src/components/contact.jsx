@@ -100,7 +100,7 @@ export function Contact() {
       <footer className="mt-20 pt-8 border-t border-border">
         <div className="container mx-auto px-6">
           <div className="text-center text-muted-foreground text-sm">
-            <p>© 2025 John Developer. Built with Next.js and Tailwind CSS.</p>
+            <p>© 2025 Dipha Wiguna. Built with Next.js and Tailwind CSS.</p>
           </div>
         </div>
       </footer>

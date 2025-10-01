@@ -1,14 +1,15 @@
 import { ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import Image from "next/image";
 
 export function Projects() {
   const projects = [
     {
       title: "Sistem Informasi Manajemen Masjid Untuk Optimalisasi Administrasi dan Transparansi Keuangan",
       description:
-        "A full-stack e-commerce solution built with Next.js and Stripe integration. Features include user authentication, product management, shopping cart, and payment processing.",
-      image: "/modern-ecommerce-interface.png",
+        "Sistem ini dibangun untuk memudahkan pengurus masjid dalam mengelola  data-data masjid mulai dari kegiatan, keuangan, inventaris, hingga pengelolaan donasi, serta untuk meningkatkan akuntabilitas dan keterbukaan antara  pengurus dan jamaah.",
+      image: "/image/mja.png",
       technologies: ["HTML", "CSS", "Javascript", "TailwindCSS", "Nextjs"],
       liveUrl: "https://example.com",
     //   githubUrl: "https://github.com",
@@ -16,8 +17,8 @@ export function Projects() {
     {
       title: "Sosial Media berbasis Kampus",
       description:
-        "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features. Built with React and Socket.io.",
-      image: "/task-management-dashboard.png",
+        "Sosial media berbasis kampus yang dikembangkan karena adanya trend antar jemput (Anjem) oleh mahasiswa daerah tembalang yang menggerakan tim reddy untuk membuat sebuah platform sosial media.",
+      image: "/image/reddy.png",
       technologies: ["HTML", "CSS", "Javascript", "TailwindCSS", "Nextjs"],
       liveUrl: "https://example.com",
     //   githubUrl: "https://github.com",
@@ -25,8 +26,8 @@ export function Projects() {
     {
       title: "Content Management System dan Landing Page Rapier Technology International",
       description:
-        "A responsive weather application that provides current weather conditions and forecasts. Features location-based weather data and interactive charts.",
-      image: "/preview/project4.png",
+        "Website perusahaan yang terdiri dari landing page dan CMS dibuat untuk memberikan informasi yang jelas, menarik, dan mudah diakses kepada pengguna sekaligus memudahkan tim internal dalam mengelola konten secara dinamis.",
+      image: "/image/rapier.png",
       technologies: ["HTML", "CSS", "Javascript", "TailwindCSS", "Nextjs"],
       liveUrl: "https://example.com",
     //   githubUrl: "https://github.com",
@@ -55,10 +56,11 @@ export function Projects() {
                 key={index}
                 className="group bg-card border-border hover:border-teal-500/50 transition-all duration-300 overflow-hidden"
               >
-                <div className="aspect-video overflow-hidden">
-                  <img
+                <div className="aspect-video overflow-hidden relative">
+                  <Image
                     src={project.image || "/placeholder.svg"}
                     alt={project.title}
+                    fill
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
