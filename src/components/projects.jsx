@@ -11,7 +11,7 @@ export function Projects() {
         "Sistem ini dibangun untuk memudahkan pengurus masjid dalam mengelola  data-data masjid mulai dari kegiatan, keuangan, inventaris, hingga pengelolaan donasi, serta untuk meningkatkan akuntabilitas dan keterbukaan antara  pengurus dan jamaah.",
       image: "/image/mja.png",
       technologies: ["HTML", "CSS", "Javascript", "TailwindCSS", "Nextjs"],
-      liveUrl: "https://example.com",
+      liveUrl: "https://mja-cms.vercell.app",
     //   githubUrl: "https://github.com",
     },
     {
@@ -20,7 +20,7 @@ export function Projects() {
         "Sosial media berbasis kampus yang dikembangkan karena adanya trend antar jemput (Anjem) oleh mahasiswa daerah tembalang yang menggerakan tim reddy untuk membuat sebuah platform sosial media.",
       image: "/image/reddy.png",
       technologies: ["HTML", "CSS", "Javascript", "TailwindCSS", "Nextjs"],
-      liveUrl: "https://example.com",
+      liveUrl: "https://reddy.id",
     //   githubUrl: "https://github.com",
     },
     {
@@ -29,7 +29,7 @@ export function Projects() {
         "Website perusahaan yang terdiri dari landing page dan CMS dibuat untuk memberikan informasi yang jelas, menarik, dan mudah diakses kepada pengguna sekaligus memudahkan tim internal dalam mengelola konten secara dinamis.",
       image: "/image/rapier.png",
       technologies: ["HTML", "CSS", "Javascript", "TailwindCSS", "Nextjs"],
-      liveUrl: "https://example.com",
+      // liveUrl: "https://example.com",
     //   githubUrl: "https://github.com",
     },
   ];
