@@ -7,7 +7,7 @@ export function Experience() {
       title: "Frontend Developer (Full Time)",
       company: "Reddy",
       description:
-        "Build and maintain critical components used to construct TechCorp's frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+        "Mengembangkan Frontend website Sosial Media Berbasis Kampus karena adanya fenomena trend antar jemput di daerah Tembalang",
       technologies: ["Javascript", "Nextjs", "HTML", "CSS", "TailwindCSS"],
     },
     {
@@ -15,7 +15,7 @@ export function Experience() {
       title: "Frontend Developer (Internship)",
       company: "PT Rapier Technology International",
       description:
-        "Developed and maintained the company's main web application using React and Node.js. Collaborated with the design team to implement pixel-perfect UI components and improved application performance by 40%.",
+        "Mengembangkan Frontend website Comapany Profile serta berkolaborasi dengan tim UI/UX, Backend, dan Quality Assurance dalam pengembangan website",
       technologies: ["Javascript", "Nextjs", "HTML", "CSS", "TailwindCSS"],
     },
     // {
