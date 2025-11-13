@@ -24,8 +24,11 @@ export function Hero() {
                 Frontend Web Developer
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-                Fresh Graduate D3-Teknik Informatika Politeknik Negeri Semarang yang 
-                memiliki passion Frontend Web Developer dan memiliki semangat belajar yang tinggi
+                Lulusan Diploma Teknik Informatika Politeknik Negeri Semarang,
+                memiliki keterampilan di bidang Frontend Web Developer, memiliki
+                pengalaman magang di bidang Frontend Web Development selama 5
+                bulan, memiliki semangat untuk berkontribusi dan tertarik dengan
+                hal baru untuk meningkatkan pengetahuan dan keterampilan.
               </p>
             </div>
 
@@ -86,9 +89,13 @@ export function Hero() {
                     <div>{"const developer = {"}</div>
                     <div className="ml-4">{'name: "Dipha Wiguna",'}</div>
                     <div className="ml-4">
-                      {'skills: ["HTML", "CSS", "Javascript", "TailwindCSS", "Nextjs"],'}
+                      {
+                        'skills: ["HTML", "CSS", "Javascript", "TailwindCSS", "Nextjs"],'
+                      }
                     </div>
-                    <div className="ml-4">{'passion: "Frontend Web Developer"'}</div>
+                    <div className="ml-4">
+                      {'passion: "Frontend Web Developer"'}
+                    </div>
                     <div>{"}"}</div>
                   </div>
                 </div>
